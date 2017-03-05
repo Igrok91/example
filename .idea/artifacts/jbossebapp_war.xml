@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jbossebapp:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="jbossebapp.war">
+      <element id="artifact" artifact-name="jbossebapp:war exploded" />
+    </root>
+  </artifact>
+</component>
