@@ -15,6 +15,20 @@
         </sourceRoots>
       </configuration>
     </facet>
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="web application context" name="MVC application context" removed="true">
+          <file>file://$MODULE_DIR$/src/main/resources/META-INF/spring/applicationContext.xml</file>
+        </fileset>
+        <fileset id="web jboss-as-kitchensink servlet context" name="MVC jboss-as-kitchensink servlet context" removed="true">
+          <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/jboss-as-spring-mvc-context.xml</file>
+        </fileset>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/META-INF/spring/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/jboss-as-spring-mvc-context.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_6" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/target/classes" />
